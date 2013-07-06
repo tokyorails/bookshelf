@@ -1,0 +1,7 @@
+<h1 id="books!">Books!</h1>
+<%= form_for @book do |f| -%>
+  <%= f.label :author, "Author" %>
+  <%= f.text_field :author %>
+  <%= f.label :title, "Title" %>
+  <%= f.text_field :title %>
+<% end -%>
